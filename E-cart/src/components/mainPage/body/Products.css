@@ -1,0 +1,22 @@
+#container {
+    display: inline-block;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.cards {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: ease-out 0.35s;
+    opacity: 0.7;
+}
+
+.cards:hover {
+    transform: scale(1.2);
+    transition: ease-in 0.25s;
+    opacity: 1;
+
+}
